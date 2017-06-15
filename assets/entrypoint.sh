@@ -1,0 +1,6 @@
+#! /bin/bash
+# Check the UID and GID of the service and make adjustments if required...
+. /move_uid_and_gid.sh
+
+# This is the original entrypoint called with the default command parameters...
+/docker-entrypoint.sh "$@"
