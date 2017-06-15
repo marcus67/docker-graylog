@@ -14,6 +14,7 @@ Follow these steps:
   * `TARGET_UID: <UID>`
   * `TARGET_GROUPNAME: graylog`
   * `TARGET_GID: <GID>`
+  
   where `<UID>` and `<GID>` have to be replaced by the ids used for the created host user and group respectively
 
 ## Example
